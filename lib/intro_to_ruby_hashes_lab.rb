@@ -10,7 +10,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash[key] = new_hash
   if hash[key]
     hash[key] = hash[key] + 1 
   else
