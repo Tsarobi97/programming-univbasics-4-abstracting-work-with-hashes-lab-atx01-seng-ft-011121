@@ -1,7 +1,5 @@
 def my_hash_creator(key, value)
-  {
-    name: "Robert", 
-  characteristic: "Supreme"
+  {key => value
     }
   # return a hash that includes the key and value parameters passed into this method
 end
